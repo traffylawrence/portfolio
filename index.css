@@ -9,7 +9,22 @@ body{
     background-color:#5A8299;
     width: 100%;
 }
+.name{
+    color: #bc2e1e;
+    font-size: 60px;
+text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+}
+.intro{
+    font-size: 24px;
+    color: #FFFFFF;
+   
+    text-shadow: #474747 3px 5px 2px;
+}
+.proj{
+    font-size: 90px;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
 
+}
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-brand {
         color: #ffffff; 
@@ -20,7 +35,25 @@ body{
     .navbar-light .navbar-brand:hover {
         color: white;
     }
-    
+    .nav-item{
+        font-size: 32px;
+    }
+ .card img{
+    border: 2px solid black;
+ }
+    .card {
+        width: 500px;
+        height: 600px;
+        display: grid;
+        row-gap: 10px; 
+        column-gap: 10px; 
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 15px;
+        margin-bottom: 20px; 
+        -webkit-box-shadow: 8px 7px 0px 3px #000000; 
+        box-shadow: 8px 7px 0px 3px #000000;
+    }
     
     .container-wrapper {
         padding: 20px;
