@@ -6,21 +6,28 @@
     font-family: Bookman Old Style;
 }
 body{
-    background-color:#5A8299;
-    width: 100%;
+    background-color:#1A1A1A;
+   height: 100vh;
 }
-
-
+.btnBlack {
+    background-color: black; 
+    color: white; 
+    border: 0.5px solid black;
+}
+.btnBlack:hover {
+    background-color: #4D4D4D ; 
+    border: 0.5px solid black;
+}
 .name{
-    color: #bc2e1e;
+    color: #FFFFFF;
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
     font-size: 60px;
-text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+    padding-left: 24px;
+
 }
 .intro{
     font-size: 24px;
-    color: #FFFFFF;
-   
-    text-shadow: #474747 3px 5px 2px;
+    color: white;
 }
 .proj{
     font-size: 90px;
@@ -29,13 +36,15 @@ text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 
 }
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-brand {
-        color: #ffffff; 
+        color: white; 
     }
     .navbar-light .navbar-nav .nav-link:hover {
-        color: #5A8299;
+        color: white;
+        text-decoration: underline; 
     }
     .navbar-light .navbar-brand:hover {
         color: white;
+ cursor:none;
     }
     .nav-item{
         font-size: 32px;
@@ -53,38 +62,36 @@ text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 
         border: 2px solid black;
         border-radius: 15px;
         margin-bottom: 20px; 
-        -webkit-box-shadow: 8px 7px 0px 3px #000000; 
-        box-shadow: 8px 7px 0px 3px #000000;
+        -webkit-box-shadow: 8px 7px 0px 3px rgba(77, 77, 77, 0.5);
+        box-shadow: 8px 7px 0px 3px rgba(77, 77, 77, 0.5);
+        
     }
-    
     .container-wrapper {
         padding: 20px;
     }
-    
     .container-fluid {
-        background-color: #8c6445;
+        background-color:#4D4D4D;
         border-radius: 15px;
         padding: 20px;
         display: flex;
-        align-items: center; /* Align items vertically */
-        justify-content: space-between; /* Add space between items */
-        box-shadow: 12px 12px 2px 1px rgba(67, 5, 70, 0.2); /* Add box shadow */
+        align-items: center; 
+        justify-content: space-between; 
+        box-shadow: 12px 12px 2px 1px rgba(67, 5, 70, 0.2); 
     }
-    
-    
     .profile1x1 {
         border: 1px solid black;
         border-radius: 50%;
         width: 350px; 
         box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+        cursor: none;
     }
-    
+
     .text-content {
         color: white;
         flex: 1; 
         margin-right: 20px; /* Add space between text content and image */
     }
-    
+
     .text-content h4{
         font-weight: normal;
     }
@@ -92,17 +99,62 @@ text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 
         font-size: 100px;
         font-weight: normal;
     }
-   
-    .proj{
-        padding-left:24px ;
-    }
     footer {
-        background-color: #8c6445;
+        background-color: #4D4D4D;
         color: white;
         margin-top: auto; 
         padding-top: 20px; 
-        padding-bottom: 20px; 
+        padding-bottom: 15px; 
+        font-size: 18px;
     }
     footer p{
         padding-left: 20px;
+        color: white;
+    }
+    .footNav{
+        color: white;
+        text-align: center;
+        font-size: 32px;
+    }
+    .footNav p{
+        font-size: 18px;
+    }
+    .footNav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .footNav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .footNav li {
+        display: inline-block; 
+    }
+    
+    .footNav li a {
+        color:white;
+        text-decoration: none; 
+    }
+    
+    .footNav li a:hover {
+        color:white;
+    }
+    
+    .footNav li a:visited {
+        color:white;
+    }
+    #bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        height: 100vh;
+       width: 100%;
+       height: 100%;
     }
